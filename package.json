@@ -1,0 +1,61 @@
+{
+  "name": "sujal-portfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Sujal Javeri's Portfolio Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm install --production",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "portfolio",
+    "express",
+    "mongodb",
+    "nodejs",
+    "api"
+  ],
+  "author": "Sujal Javeri",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "nodemailer": "^6.9.4",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.3.1",
+    "validator": "^13.11.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3",
+    "eslint": "^8.47.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sujaljaveri/portfolio-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sujaljaveri/portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/sujaljaveri/portfolio-backend#readme"
+}
