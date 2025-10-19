@@ -27,7 +27,7 @@
     "cors": "^2.8.5",
     "helmet": "^8.0.0",
     "express-rate-limit": "^7.5.0",
-    "nodemailer": "^6.9.16",
+    "nodemailer": "^7.0.9",
     "jsonwebtoken": "^9.0.2",
     "bcryptjs": "^2.4.3",
     "multer": "^2.0.1",
