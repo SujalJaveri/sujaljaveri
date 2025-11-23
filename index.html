@@ -1545,7 +1545,8 @@
                         </div>
                     </div>
 
-                    <form class="contact-form" onsubmit="handleSubmit(event)" aria-label="Contact form">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" aria-label="Contact form">
+                                        <input type="hidden" name="access_key" value="c6797211-6786-48e1-b046-debb45c909e8">
                         <div class="form-group">
                             <label for="name">Full Name</label>
                             <input type="text" id="name" name="name" placeholder="Enter your name" required aria-required="true">
@@ -1822,7 +1823,8 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // Form submission
+        
+                /*// Form submission
         function handleSubmit(event) {
             event.preventDefault();
             
@@ -1839,6 +1841,7 @@
             alert('Thank you for your message! Your email client should open now.');
             event.target.reset();
         }
+                */
 
         // Intersection Observer for animations
         const observerOptions = {
